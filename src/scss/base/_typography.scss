@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=IBM+Plex+Mono:wght@100&display=swap');
+
+h1 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.938rem;
+  color: $light;
+}
+
+h2 {
+  @extend h1;
+  font-size: 1.375rem;
+  line-height: 1.788rem;
+  font-weight: 500;
+}
+
+.logo {
+  &--icon {
+    color: $purple;
+  }
+
+  &--green {
+    color: $green;
+    font-size: 0.875rem;
+    line-height: 1.138rem;
+  }
+
+  font-family: 'DM Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1rem;
+}
+
+a {
+  font-weight: 700;
+  font-size: 1.063rem;
+  line-height: 1.383rem;
+  color: $light;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'DM Sans', sans-serif;
+}
+
+p {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  color: $gray;
+}
+
+button {
+  font-family: 'DM Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 0.938rem;
+  font-weight: 700;
+  line-height: 1.221rem;
+}
+
+footer {
+  .logo {
+    font-size: 1.875rem;
+  }
+}
+
+/* 
+
+font-family: 'DM Sans', sans-serif;
+font-family: 'IBM Plex Mono', monospace;
+
+*/

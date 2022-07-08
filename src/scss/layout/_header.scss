@@ -1,0 +1,38 @@
+header {
+  @include flex(auto, column, wrap);
+  gap: 3rem;
+}
+
+.header {
+  &__nav {
+    @include flex(auto, column, wrap);
+    gap: 3rem;
+    // max-height: 3.875rem; // tirar dps
+
+    .header__section {
+      &--left {
+        gap: 0.2rem;
+      }
+  
+      &--right {
+        gap: 3.875rem;
+        a {
+          display: none;
+        }
+      }
+  
+      @include flex(auto, row, wrap);
+      justify-content: center;
+    }
+  }
+  
+  &__hero {
+    @include flex(auto, column, wrap);
+    gap: 1rem;
+
+    .header__titles {
+      @include flex(auto, column, wrap);
+      gap: 0.5rem;
+    }
+  }
+}

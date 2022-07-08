@@ -1,0 +1,26 @@
+.button {
+  &--lg {
+    background: none;
+    min-height: 3.875rem;
+    max-height: 3.875rem;
+    color: $light;
+    border: 0.063rem solid $purple;
+  }
+
+  &--sm {
+    @extend .button--lg;
+    min-height: 2.5rem;
+    max-height: 2.5rem;
+    border: 0.063rem solid $green;
+  }
+
+  &--sm--fill {
+    background-color: $green;
+  }
+
+  @include flex(auto, row, wrap);
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.375rem;
+  border: none;
+}

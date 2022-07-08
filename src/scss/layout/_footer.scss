@@ -1,0 +1,14 @@
+footer {
+  @include flex(auto, column, wrap);
+  align-items: center;
+  margin-top: 3.75rem;
+  gap: 1.5rem;
+}
+
+.footer {
+  &__section {
+    @include flex(auto, row, wrap);
+    justify-content: center;
+    gap: 3rem;
+  }
+}
