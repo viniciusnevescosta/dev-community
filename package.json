@@ -12,6 +12,8 @@
     "vite": "^2.9.9"
   },
   "dependencies": {
-    "sass": "^1.53.0"
+    "@types/scrollreveal": "^0.0.8",
+    "sass": "^1.53.0",
+    "scrollreveal": "^4.0.9"
   }
 }

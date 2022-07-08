@@ -6,10 +6,7 @@
   background-color: $dark-200;
   gap: 1.375rem;
   transition: transform 0.2s ease-out;
-
-  &:hover {
-    transform: translateY(-1rem);
-  }
+  // visibility: hidden;
 
   @include desktop {
     padding: 1.5rem;
@@ -68,6 +65,7 @@
 
   &__btns {
     @include flex(auto, row, wrap);
+    align-items: end;
     gap: 0.438rem;
 
     @include desktop {
