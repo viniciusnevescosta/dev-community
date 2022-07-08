@@ -2,7 +2,7 @@ import '../scss/style.scss'
 import ScrollReveal from 'scrollreveal'
 import { Card } from './card'
 
-ScrollReveal({ reset: true, duration: 1300, interval: 100 }).reveal('.headline');
+ScrollReveal({ reset: true, duration: 1500, interval: 100 }).reveal('.headline');
 
 interface ICard {
   name: string,

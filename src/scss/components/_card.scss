@@ -6,7 +6,7 @@
   background-color: $dark-200;
   gap: 1.375rem;
   transition: transform 0.2s ease-out;
-  // visibility: hidden;
+  visibility: hidden;
 
   @include desktop {
     padding: 1.5rem;
