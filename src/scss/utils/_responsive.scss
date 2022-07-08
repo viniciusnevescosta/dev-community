@@ -1,0 +1,58 @@
+// variables
+$mobile: 320px;
+$tablet: 576px;
+$laptop: 768px;
+$desktop: 992px;
+$lg-desktop: 1200px;
+$xx-desktop: 1400px;
+$ux-desktop: 2560px; // quad-hd
+$uu-desktop: 3840px; // 4k
+
+// mixins
+@mixin mobile {
+    @media (min-width: #{$mobile}) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: #{$tablet}) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media (min-width: #{$laptop}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
+}
+
+@mixin lg-desktop {
+    @media (min-width: #{$lg-desktop}) {
+        @content;
+    }
+}
+
+@mixin xx-desktop {
+    @media (min-width: #{$xx-desktop}) {
+        @content;
+    }
+}
+
+@mixin ux-desktop {
+    @media (min-width: #{$ux-desktop}) {
+        @content;
+    }
+}
+
+@mixin uu-desktop {
+    @media (min-width: #{$ux-desktop}) {
+        @content;
+    }
+}

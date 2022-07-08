@@ -4,15 +4,21 @@ h1 {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 1.5rem;
   font-weight: 600;
-  line-height: 1.938rem;
   color: $light;
+
+  @include desktop {
+    font-size: 4rem;
+  }
 }
 
 h2 {
   @extend h1;
   font-size: 1.375rem;
-  line-height: 1.788rem;
-  font-weight: 500;
+  font-weight: bold;
+
+  @include desktop {
+    font-size: 1.5rem;
+  }
 }
 
 .logo {
@@ -23,20 +29,25 @@ h2 {
   &--green {
     color: $green;
     font-size: 0.875rem;
-    line-height: 1.138rem;
+
+    @include desktop {
+      font-size: 1.5rem;
+    }
   }
 
   font-family: 'DM Sans', sans-serif;
   text-transform: uppercase;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1rem;
+
+  @include desktop {
+    font-size: 2rem;
+  }
 }
 
 a {
   font-weight: 700;
   font-size: 1.063rem;
-  line-height: 1.383rem;
   color: $light;
   text-decoration: none;
   text-transform: uppercase;
@@ -47,8 +58,11 @@ p {
   font-family: 'DM Sans', sans-serif;
   font-weight: 500;
   font-size: 1rem;
-  line-height: 1.375rem;
   color: $gray;
+
+  @include desktop {
+    font-size: 1.5rem;
+  }
 }
 
 button {
@@ -56,18 +70,14 @@ button {
   text-transform: uppercase;
   font-size: 0.938rem;
   font-weight: 700;
-  line-height: 1.221rem;
 }
 
 footer {
   .logo {
     font-size: 1.875rem;
+
+    @include desktop {
+      font-size: 3rem;
+    }
   }
 }
-
-/* 
-
-font-family: 'DM Sans', sans-serif;
-font-family: 'IBM Plex Mono', monospace;
-
-*/

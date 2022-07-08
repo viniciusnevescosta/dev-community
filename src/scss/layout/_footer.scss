@@ -3,6 +3,14 @@ footer {
   align-items: center;
   margin-top: 3.75rem;
   gap: 1.5rem;
+
+  @include laptop {
+    @include flex(auto, row, wrap);
+  }
+
+  @include desktop {
+    margin-top: 8.75rem;
+  }
 }
 
 .footer {
@@ -10,5 +18,9 @@ footer {
     @include flex(auto, row, wrap);
     justify-content: center;
     gap: 3rem;
+
+    @include laptop {
+      justify-content: end;
+    }
   }
 }

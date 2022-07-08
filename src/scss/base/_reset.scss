@@ -6,8 +6,17 @@
 
 body {
   @include flex(auto, column, wrap);
-  // position: absolute;
-  // width: 100%;
-  // height: 100%;
   padding: 1.5rem 1.438rem 8.5rem 1.438rem;
+
+  @include lg-desktop {
+    padding: 3.938rem 5rem 3rem 5rem;
+  }
+
+  @include xx-desktop {
+    padding: 3.938rem 10rem 3rem 10rem;
+  }
+
+  @include ux-desktop {
+    padding: 3.938rem 21.625rem 3rem 21.625rem;
+  }
 }

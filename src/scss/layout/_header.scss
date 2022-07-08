@@ -1,17 +1,28 @@
 header {
   @include flex(auto, column, wrap);
   gap: 3rem;
+
+  @include desktop {
+    gap: 6.563rem;
+  }
 }
 
 .header {
   &__nav {
     @include flex(auto, column, wrap);
     gap: 3rem;
-    // max-height: 3.875rem; // tirar dps
+
+    @include laptop {
+      @include flex(auto, row, wrap);
+    }
 
     .header__section {
       &--left {
         gap: 0.2rem;
+        
+        @include laptop {
+          justify-content: start;
+        }
       }
   
       &--right {
@@ -19,10 +30,21 @@ header {
         a {
           display: none;
         }
+
+        @include laptop {
+          justify-content: end;
+          a {
+            display: block;
+          }
+        }
       }
   
       @include flex(auto, row, wrap);
       justify-content: center;
+      
+      @include laptop {
+        align-items: center;
+      }
     }
   }
   
@@ -30,9 +52,21 @@ header {
     @include flex(auto, column, wrap);
     gap: 1rem;
 
+    @include desktop {
+      gap: 2rem;
+    }
+
+    @include lg-desktop {
+      max-width: 70%;
+    }
+
     .header__titles {
       @include flex(auto, column, wrap);
       gap: 0.5rem;
+
+      @include desktop {
+        gap: 2rem;
+      }
     }
   }
 }
