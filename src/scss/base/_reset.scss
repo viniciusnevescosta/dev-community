@@ -20,3 +20,19 @@ body {
     padding: 3.938rem 21.625rem 3rem 21.625rem;
   }
 }
+
+// scroll
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background-color: $dark-200;
+}
+
+// selection
+::selection {
+  color: $light;
+  background: $purple;
+}

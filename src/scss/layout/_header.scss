@@ -23,6 +23,10 @@ header {
         @include laptop {
           justify-content: start;
         }
+
+        @include desktop {
+          gap: 0.5rem;
+        }
       }
   
       &--right {
