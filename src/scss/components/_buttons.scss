@@ -1,21 +1,13 @@
 .button {
-  &--lg {
-    background: none;
-    min-height: 3.875rem;
-    max-height: 3.875rem;
-    color: $light;
-    border: 0.063rem solid $purple;
-
-    @include laptop {
-      max-width: 15.5rem;
-    }
-  }
-
   &--sm {
-    @extend .button--lg;
     min-height: 2.5rem;
     max-height: 2.5rem;
     border: 0.063rem solid $green;
+    transition: border 0.2s ease-in-out;
+
+    &:hover {
+      border: 0.063rem solid $green-hover;
+    }
 
     @include desktop {
       max-width: 10.313rem;
@@ -26,6 +18,12 @@
     background-color: $green;
     min-height: 2.5rem;
     max-height: 2.5rem;
+    color: $dark;
+    transition: background-color 0.2s ease-in-out;
+
+    &:hover {
+      background-color: $green-hover;
+    }
 
     @include desktop {
       max-width: 10.313rem;
@@ -37,4 +35,8 @@
   justify-content: center;
   border-radius: 0.375rem;
   border: none;
+
+  &:hover {
+    cursor: pointer;
+  }
 }

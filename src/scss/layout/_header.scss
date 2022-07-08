@@ -39,6 +39,11 @@ header {
           justify-content: end;
           a {
             display: block;
+            transition: color 0.2s ease-out;
+
+            &:hover {
+              color: $gray;
+            }
           }
         }
       }
