@@ -1,5 +1,6 @@
 import '../scss/style.scss'
 import ScrollReveal from 'scrollreveal'
+import { removeCard } from './removeCard'
 import { Card } from './card'
 
 ScrollReveal({ reset: true, duration: 1500, interval: 100 }).reveal('.headline');
@@ -18,6 +19,8 @@ search.addEventListener('input', async () => {
       const res = await fetch(`https://api.github.com/users/${search.value}/repos`)
       const api: ICard[] = await res.json()
       let nmbr = 0;  
+
+      removeCard()
   
       api.forEach(() => {
         nmbr++
@@ -28,7 +31,7 @@ search.addEventListener('input', async () => {
     else {
       const main = document.querySelector('main') as HTMLElement;
       const allCards = document.querySelectorAll('.card') as NodeListOf<HTMLDivElement> | undefined;
-
+    
       if(allCards) {
         allCards.forEach(element => {
           main.removeChild(element)
