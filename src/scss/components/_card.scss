@@ -49,8 +49,8 @@
 
   &__texts {
     @include flex(auto, column, nowrap);
-    // display: none;
     max-width: 10rem;
+    max-height: 100%;
     gap: 1rem;
     word-wrap: break-word;
     overflow-y: scroll;
@@ -76,13 +76,8 @@
   &__btns {
     @include flex(auto, row, wrap);
     max-width: 100%;
-    max-height: 2.625rem;
     align-items: end;
     gap: 0.438rem;
-
-    @include desktop {
-      margin-top: 3rem;
-    }
 
     @include ux-desktop {
       align-items: flex-end;
