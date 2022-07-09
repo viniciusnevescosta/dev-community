@@ -11,8 +11,10 @@ form {
   border: 0.063rem solid $purple;
   transition: max-width 0.2s ease-out;
 
-  &:hover {
-    max-width: 20rem;
+  @include laptop {
+    &:hover {
+      max-width: 20rem;
+    }
   }
 
   @include laptop {

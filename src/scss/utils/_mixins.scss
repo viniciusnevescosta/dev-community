@@ -4,14 +4,8 @@
   flex-flow: $direction $wrap;
 }
 
-// @mixin grid($width) {
-//   display: grid;
-//   grid-template-columns: repeat(auto-fill, minmax($width, 1fr));
-//   grid-auto-rows: max-content;
-// }
-
 @mixin grid() {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(10rem, 1fr));
   grid-auto-rows: max-content;
 }
