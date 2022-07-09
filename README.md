@@ -1,5 +1,5 @@
 <p align="center">
-  <img height="400em" src="assets/cover.svg"
+  <img height="400em" src="public/cover.png"
 </p>
   
 ![GitHub language count](https://img.shields.io/github/languages/count/Jolonte/desafio22--codelandia)
