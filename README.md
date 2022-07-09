@@ -11,6 +11,8 @@
 - HTML5
 - SCSS
 - TypeScript
+- Scrollreveal
+- Remixicons
 - [Github API](https://docs.github.com/pt/rest)
 - [Google Fonts](https://fonts.google.com/)
 
