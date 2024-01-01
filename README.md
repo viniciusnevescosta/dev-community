@@ -55,10 +55,7 @@ Este projeto é parte da minha jornada de aprendizado, onde busquei criar uma ex
    ```bash
    pnpm dev
    ```
-
-4. **Acesse o Aplicativo:**
-   - Navegue para `index.html` e experimente a pesquisa de usuários e a geração de cards.
-
+   
 ## Aprendizados Adquiridos
 
 Durante o desenvolvimento deste projeto, adquiri conhecimentos importantes, incluindo:
