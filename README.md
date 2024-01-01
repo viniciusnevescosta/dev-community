@@ -1,6 +1,18 @@
 # Dev Community
 
+![image](https://github.com/viniciusnevescosta/dev-community/assets/66970818/058c902c-73e5-4276-bb23-dc631a36edc0)
+
 Bem-vindo ao repositório do meu projeto "Dev Community"! Aqui, explorei a integração com a API do Github, utilizando TypeScript com uma abordagem orientada a objetos para gerar cards com informações dos repositórios dos usuários pesquisados no campo de busca.
+
+- [Read in english](en_README.md)
+
+## Sumário de Conteúdos
+
+- [Visão Geral](#visão-geral)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Funcionalidades](#funcionalidades)
+- [Como Testar](#como-testar)
+- [Aprendizados Adquiridos](#aprendizados-adquiridos)
 
 ## Visão Geral
 
@@ -36,12 +48,12 @@ Este projeto é parte da minha jornada de aprendizado, onde busquei criar uma ex
 2. **Instale as Dependências:**
    ```bash
    cd dev-community
-   npm install
+   pnpm i
    ```
 
 3. **Execute o Aplicativo:**
    ```bash
-   npm start
+   pnpm dev
    ```
 
 4. **Acesse o Aplicativo:**
