@@ -40,6 +40,12 @@ Este projeto é parte da minha jornada de aprendizado, onde busquei criar uma ex
 
 ## Como Testar
 
+### Deploy
+
+- [Codelandia](https://desafio22-codelandia.vercel.app/)
+
+### Localmente
+
 1. **Clone o Repositório:**
    ```bash
    git clone https://github.com/viniciusnevescosta/dev-community.git
