@@ -18,6 +18,8 @@ Bem-vindo ao repositório do meu projeto "Dev Community"! Aqui, explorei a integ
 
 Este projeto é parte da minha jornada de aprendizado, onde busquei criar uma experiência envolvente para a comunidade de desenvolvedores. Ao utilizar a API do Github, desenvolvi uma aplicação que gera cards dinâmicos, apresentando informações relevantes sobre os repositórios dos usuários.
 
+Além disso, criei o layout deste projeto com base em um desafio de web design no Figma. [Link de todos os desafios 'Codelândia'](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?type=design&node-id=624-2&mode=design&t=Trxmon2KQNwAqiIN-0).
+
 ## Tecnologias Utilizadas
 
 - **TypeScript:** Uma linguagem superset do JavaScript que adiciona tipagem estática opcional.
